@@ -407,14 +407,13 @@ def alphabet():
     _alphabet = _fetch_list(ALPHABETLIST_URL, _alphabet, Letter)
     return _alphabet
 
-
 DATE_MIN = "2005-02-01"
 TOKEN_URL = "/services/ivysilani/xml/token/"
 PROGRAMMELIST_URL = "/services/ivysilani/xml/programmelist/"
 PROGRAMMEDETAIL_URL = "/services/ivysilani/xml/programmedetail/"
-GENRELIST_URL = "/services/ivysilani/xml/genrelist/"
+GENRELIST_URL = "/services-old/ivysilani/xml/genrelist/"
+ALPHABETLIST_URL = "/services-old/ivysilani/xml/alphabetlist/"
 PLAYLISTURL_URL = "/services/ivysilani/xml/playlisturl/"
-ALPHABETLIST_URL = "/services/ivysilani/xml/alphabetlist/"
 
 IMAGE_WIDTH = 400  # doporučeno na TheTvDB Wiki
 
